@@ -46,7 +46,7 @@ extension URLRequest: OGPreviewable {
 
 				completion(false, nil)
 			}
-		}
+		}.resume()
 	}
 }
 
